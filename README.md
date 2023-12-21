@@ -22,7 +22,7 @@ pytest tests/
 
 For triangles faces with more than `1e5` faces, cython seems tp be `~5x` faster
 
-()[benchmark.png]
+[](benchmark.png)
 
 ```
 10 points: python: 0.000 s, cython: 0.000 s, ratio: 3.689
