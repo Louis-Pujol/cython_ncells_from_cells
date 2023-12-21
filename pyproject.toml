@@ -1,0 +1,10 @@
+[project]
+name = "ncells_from_cells"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+]
+
+[build-system]
+requires = ["numpy", "cython", "setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
