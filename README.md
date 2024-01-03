@@ -37,4 +37,4 @@ For triangles faces with more than `1e5` faces, cython seems tp be `~5x` faster
 10000000 points: python: 5.019 s, cython: 0.869 s, ratio: 5.776
 ```
 
-UPDATE (01/03/2024) : An attempt to solve the problems raised in https://github.com/pyvista/pyvista/issues/2330 ,defined a `JaggedArray` class that wraps a connectivity array + offsets (1d int array with the list of successive offsets) and act as a "list of irregular faces", in particular it is compatible with `.from_irregular_faces`
+UPDATE (01/03/2024) : An attempt to solve the problem raised in https://github.com/pyvista/pyvista/issues/2330 , defined a `JaggedArray` class that wraps a connectivity array + offsets (1d int array with the list of successive offsets) and act as a "list of irregular faces", in particular it is compatible with `.from_irregular_faces`
