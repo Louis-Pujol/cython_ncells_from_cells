@@ -13,6 +13,8 @@ extension = Extension(
 
 dependencies = [
     "numpy",
+    "pyvista @ git+https://github.com/pyvista/pyvista"
+
 ]
 
 setup(
