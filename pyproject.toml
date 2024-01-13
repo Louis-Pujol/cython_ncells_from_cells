@@ -3,7 +3,7 @@ name = "ncells_from_cells"
 version = "0.0.1"
 dependencies = [
     "numpy",
-    "pyvista @ git+https://github.com/pyvista/pyvista@main"
+    "pyvista"
 ]
 
 [build-system]
