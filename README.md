@@ -41,4 +41,6 @@ UPDATE (01/03/2024) : An attempt to solve the problem raised in https://github.c
 
 UPDATE (01/13/2024) : As mentionned [here](https://github.com/pyvista/pyvista/discussions/5393#discussioncomment-8113925) vtk provides an `ImportLegacyFormat` faster than cython implementation proposed here.
 
+![](benchmark_with_legacy.png)
+
 
