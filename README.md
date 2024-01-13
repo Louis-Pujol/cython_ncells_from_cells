@@ -38,3 +38,7 @@ For triangles faces with more than `1e5` faces, cython seems tp be `~5x` faster
 ```
 
 UPDATE (01/03/2024) : An attempt to solve the problem raised in https://github.com/pyvista/pyvista/issues/2330 , defined a `JaggedArray` class that wraps a connectivity array + offsets (1d int array with the list of successive offsets) and act as a "list of irregular faces", in particular it is compatible with `.from_irregular_faces`
+
+UPDATE (01/13/2024) : As mentionned [here](https://github.com/pyvista/pyvista/discussions/5393#discussioncomment-8113925) vtk provides an `ImportLegacyFormat` faster than cython implementation proposed here.
+
+
